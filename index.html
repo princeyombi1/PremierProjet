@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!--HEADER-->
       <section id="home">
         <header>
           Unit Conversions - Temperature, Weight, and Distance
@@ -18,9 +19,11 @@
         </nav>
       </section>    
       <div style="clear:both;"></div>
-     
-      <div id="all-conversion-sections">
+     <!--END HEADER-->
 
+     <!--BODY-->
+      <div id="all-conversion-sections">
+        <!--TEMPERATURE SECTION-->
         <section id="temperature"  class="b temperature">
           <div id="tmp">
             <figure>
@@ -33,13 +36,13 @@
                 <legend>Temperature</legend>
                 <label for="Temperature">Celsius</label> <br/>
 
- <input type="number" id="c"> <br/>
+                <input type="number" id="c"> <br/>
 
                 <button id="temperature"> Convert </button> <br/>
 
                 <input type="number" id="f"> <br/>
 
- <label for="Temperature">Fahrenheit</label>
+                <label for="Temperature">Fahrenheit</label>
               </fieldset>
               <aside>
                 To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
@@ -47,9 +50,10 @@
             </article>
           </div>
         </section>
+        <!--END TEMPERATURE SECTION-->
 
         <div style="clear:both;"></div>
-      
+        <!--WEIGHT SECTION-->
         <section id="weight"  class="b weight">          
           <div id="wgt">
             <figure>
@@ -61,14 +65,14 @@
                 <legend>Weight</legend>
                 <label for="Weight">KG</label> <br/>
 
- <input type="number"> <br/>
+                <input type="number"> <br/>
 
                 <button id="weight"> Convert </button>  <br/>
 
  
                 <input type="number">  <br/>
 
-  <label for="Weight">Pounds</label>    
+                  <label for="Weight">Pounds</label>    
               </fieldset>
               <aside>
                 To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
@@ -76,9 +80,10 @@
             </article>
           </div>
         </section>
+        <!--END WEIGHT SECTION-->
 
         <div style="clear:both;"></div>
-
+        <!--DISTANCE SECTION-->
         <section id="distance"  class="b distance">
           <div id="dst">
             <figure>
@@ -90,13 +95,13 @@
                 <legend>Distance</legend>
                   <label for="Distance">KM</label> <br/>
 
- <input type="number">  <br/>
+                  <input type="number">  <br/>
 
                   <button id="distance"> Convert </button> <br/>
 
                   <input type="number">  <br/>
 
-  <label for="Distance">Miles</label>
+                    <label for="Distance">Miles</label>
               </fieldset>
               <aside>
                 To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609
@@ -105,16 +110,21 @@
             </article>
           </div>
         </section>
+        <!--END DISTANCE SECTION-->
         <div style="clear:both;"></div>
 
       </div>
 
+    <!--HOME LOGO FIXED-->
     <div id="go-home" class="iconbutton">
       <a href="#home">
         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
       </a>
     </div>
+    <!--END HOME LOGO FIXED-->
+    <!--END BODY-->
 
+    <!--FOOTER-->
     <footer>Learn more about HTML and CSS as a part of IBM Fullstack Cloud Developer Certification</footer>
   <script src="convert.js"></script>
 </body>
